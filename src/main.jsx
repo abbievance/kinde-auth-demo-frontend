@@ -7,7 +7,7 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <KindeProvider
-      isDangerouslyUseLocalStorage={true}
+      // isDangerouslyUseLocalStorage={true}
       clientId={import.meta.env.VITE_KINDE_CLIENT_ID}
       domain={import.meta.env.VITE_KINDE_DOMAIN}
       logoutUri={import.meta.env.VITE_KINDE_LOGOUT_URL}
